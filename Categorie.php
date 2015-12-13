@@ -15,7 +15,7 @@ class Categorie
     /**
 	 * @ORM\Column(type="string", length=25)
 	 */
-	private $nom;
+	private $name;
 
     /**
     * @ORM\OneToMany(targetEntity="Souscategorie", mappedBy="categorie", cascade={"remove"})
