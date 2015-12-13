@@ -102,7 +102,7 @@ class Categorie
     {
         $this->souscategorie[] = $souscategorie;
 
-   return $this;
+        return $this;
     }
 
     /**
